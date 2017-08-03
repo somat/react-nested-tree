@@ -1,0 +1,43 @@
+{
+  "name": "react-nested-tree",
+  "version": "0.0.1",
+  "description": "Nested tree component for React JS.",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somat/react-nested-tree.git"
+  },
+  "keywords": [
+    "react",
+    "react-js",
+    "tree",
+    "nested",
+    "tree"
+  ],
+  "author": "Akhmat Safrudin <somat@artikulpi.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/somat/react-nested-tree/issues"
+  },
+  "homepage": "https://github.com/somat/react-nested-tree#readme",
+  "dependencies": {
+    "react": "^15.6.1",
+    "webpack": "^3.4.1"
+  },
+  "peerDependencies": {
+    "react": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.0"
+  }
+}
